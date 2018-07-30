@@ -1,0 +1,22 @@
+server:
+  port: 8081
+
+rate:
+  countryNodes:
+    {
+      #美元-人民币
+      USD-CNY:
+        [{name: USD,proportion: 1},{name: CNY,proportion: 6}],
+      #欧元-美元
+      EUR-USD:
+        [{name: EUR,proportion: 1},{name: USD,proportion: 1.1704}],
+      #欧元-人民币
+      EUR-CNY:
+        [{name: EUR,proportion: 1},{name: CNY,proportion: 7.4813}],
+      #加拿大-人民币
+      CAD-CNY:
+        [{name: CAD,proportion: 1},{name: CNY,proportion: 4.9741}],
+      #美元-日元
+      USD-JPY:
+        [{name: USD,proportion: 1},{name: JPY,proportion: 110.017}],
+    }
